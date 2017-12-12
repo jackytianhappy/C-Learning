@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CCBC57861FDFECA1009596E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCBC57851FDFECA1009596E0 /* main.cpp */; };
 		CCBC578F1FDFEEE3009596E0 /* dataType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCBC578D1FDFEEE3009596E0 /* dataType.cpp */; };
+		CCBC57931FDFFA13009596E0 /* constant_type.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCBC57911FDFFA13009596E0 /* constant_type.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		CCBC57851FDFECA1009596E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CCBC578D1FDFEEE3009596E0 /* dataType.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dataType.cpp; sourceTree = "<group>"; };
 		CCBC578E1FDFEEE3009596E0 /* dataType.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dataType.hpp; sourceTree = "<group>"; };
+		CCBC57911FDFFA13009596E0 /* constant_type.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = constant_type.cpp; sourceTree = "<group>"; };
+		CCBC57921FDFFA13009596E0 /* constant_type.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = constant_type.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		CCBC57841FDFECA1009596E0 /* C++Learning */ = {
 			isa = PBXGroup;
 			children = (
+				CCBC57901FDFF9EE009596E0 /* 常量类型 */,
 				CCBC578C1FDFEEB9009596E0 /* 数据类型 */,
 				CCBC57851FDFECA1009596E0 /* main.cpp */,
 			);
@@ -73,6 +77,15 @@
 				CCBC578E1FDFEEE3009596E0 /* dataType.hpp */,
 			);
 			path = "数据类型";
+			sourceTree = "<group>";
+		};
+		CCBC57901FDFF9EE009596E0 /* 常量类型 */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC57911FDFFA13009596E0 /* constant_type.cpp */,
+				CCBC57921FDFFA13009596E0 /* constant_type.hpp */,
+			);
+			path = "常量类型";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBC57931FDFFA13009596E0 /* constant_type.cpp in Sources */,
 				CCBC57861FDFECA1009596E0 /* main.cpp in Sources */,
 				CCBC578F1FDFEEE3009596E0 /* dataType.cpp in Sources */,
 			);
